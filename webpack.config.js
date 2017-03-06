@@ -31,12 +31,12 @@ var config = {
     ]
   },
   plugins: [
-    // new webpack.optimize.UglifyJsPlugin({
-    //   compress: {
-    //     screw_ie8: false, // default关键字问题
-    //     warnings: false
-    //   }
-    // }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        screw_ie8: false, // default关键字问题
+        warnings: false
+      }
+    }),
     new es3ifyPlugin()
   ]
 }
