@@ -105,7 +105,7 @@ class ConsoleMask {
     this.vm.isSpread = !this.vm.isSpread;
   }
 
-  add(text) {
+  log(text) {
     this.vm.logs.push(text);
   }
 

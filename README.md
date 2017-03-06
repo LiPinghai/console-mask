@@ -44,7 +44,7 @@ consoleMask.toggle()
 
 log:
 ```
-consoleMask.toggle() or console.log() or console.warn() ....
+consoleMask.log() or console.log() or console.warn() ....
 ```
 
 clear logs:
