@@ -1,8 +1,9 @@
+
 # console-mask
 
 a simple front-end developer tool for IE and others.
 
-![](http://github.com/LiPinghai/console-mask/raw/master/console-mask.jpg)
+![](https://github.com/LiPinghai/console-mask/blob/master/console-mask.jpg)
 
 ## Usage
 
@@ -25,31 +26,31 @@ npm i console-mask --save-dev
 then:
 ```
 import ConsoleMask from 'console-mask';
-const consoleMask = new ConsoleMask()
+const cm = new ConsoleMask()
 ```
 
 ###apis
 
 show panel:
 ```
-consoleMask.show()
+cm.show()
 ```
 hide panel:
 ```
-consoleMask.hide()
+cm.hide()
 ```
 
 panel toggle:
 ```
-consoleMask.toggle()
+cm.toggle()
 ```
 
 log:
 ```
-consoleMask.log() or console.log() or console.warn() ....
+cm.log() or console.log() or console.warn() ....
 ```
 
 clear logs:
 ```
-consoleMask.clear()
+cm.clear()
 ```
