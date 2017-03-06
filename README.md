@@ -2,6 +2,8 @@
 
 a simple front-end developer tool for IE and others.
 
+![](http://github.com/LiPinghai/console-mask/raw/master/console-mask.jpg)
+
 ## Usage
 
 ```
