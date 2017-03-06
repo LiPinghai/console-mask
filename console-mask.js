@@ -101,8 +101,12 @@ class ConsoleMask {
     this.vm.isSpread = false;
   }
 
-  spreadToggle() {
+  toggle() {
     this.vm.isSpread = !this.vm.isSpread;
+  }
+
+  add(text) {
+    this.vm.logs.push(text);
   }
 
   clear() {
