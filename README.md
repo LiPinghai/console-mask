@@ -2,7 +2,7 @@
 
 a simple front-end developer tool for IE and others.
 
-![](http://feddy.yy.com/s/other/console-mask.jpg)
+![]('http://feddy.yy.com/s/other/console-mask.jpg')
 
 ## Usage
 
