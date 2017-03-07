@@ -1,8 +1,8 @@
 {
   "name": "console-mask",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "a simple front-end developer tool for IE and others.",
-  "main": "/dist/console-mask.min.js",
+  "main": "./dist/console-mask.min.js",
   "scripts": {
     "build": "webpack"
   },
