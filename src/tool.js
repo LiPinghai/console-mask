@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * Utility Functions
  *
@@ -232,3 +233,8 @@ export function getStorage(key) {
   key = 'vConsole_' + key;
   return localStorage.getItem(key);
 }
+=======
+export function isArray(value) {
+    return Object.prototype.toString.call(value) == '[object Array]';
+}
+>>>>>>> f94451e422690a7fe58fe7d77f432b1943154a8c

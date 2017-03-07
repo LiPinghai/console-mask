@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "console-mask",
   "version": "0.0.4",
   "description": "a simple front-end developer tool for IE and others.",
@@ -36,4 +37,42 @@
     "style-loader": "^0.13.2",
     "webpack": "^1.14.0"
   }
+=======
+    "name": "console-mask",
+    "version": "0.0.1",
+    "description": "a simple front-end developer tool for IE and others.",
+    "main": "./dist/console-mask.min.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LiPinghai/console-mask.git"
+    },
+    "keywords": [
+        "IE",
+        "console"
+    ],
+    "author": "LiPinghai",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LiPinghai/console-mask/issues"
+    },
+    "homepage": "https://github.com/LiPinghai/console-mask#readme",
+    "devDependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-es2015-loose": "^8.0.0",
+        "babel-preset-latest": "^6.16.0",
+        "babel-preset-stage-3": "^6.22.0",
+        "css-loader": "^0.26.2",
+        "es3ify-webpack-plugin": "0.0.1",
+        "node-sass": "^4.5.0",
+        "sass": "^0.5.0",
+        "sass-loader": "^6.0.2",
+        "style-loader": "^0.13.2",
+        "webpack": "^1.14.0"
+    }
+>>>>>>> f94451e422690a7fe58fe7d77f432b1943154a8c
 }
