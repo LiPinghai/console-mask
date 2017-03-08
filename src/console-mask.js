@@ -53,6 +53,7 @@ class ConsoleMask {
       this.console.warn = window.console.warn;
       this.console.debug = window.console.debug;
       this.console.error = window.console.error;
+
     }
     window.console.log = function() {
       that.printLog({
@@ -84,6 +85,10 @@ class ConsoleMask {
         logs: arguments
       });
     };
+
+    window.onerror = function(e) {
+      alert(e)
+    }
   }
 
   printLog(args) {
@@ -112,7 +117,7 @@ class ConsoleMask {
 
   log(text) {
     let li = document.createElement('li');
-    li.innerHTML = text;
+    li.innerHTML = JSON.stringify(text);
     $.one('#log-list').appendChild(li);
   }
 
