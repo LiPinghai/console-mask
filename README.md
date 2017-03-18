@@ -29,7 +29,7 @@ import ConsoleMask from 'console-mask';
 const cm = new ConsoleMask()
 ```
 
-###apis
+### apis
 
 show panel:
 ```
